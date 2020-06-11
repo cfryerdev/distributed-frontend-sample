@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@vue/cli-plugin-babel": "4.1.1",
-    "cfryerdev-dfe-utility-cookiestate": "^1.2.1",
+    "cfryerdev-dfe-utility-cookiestate": "^1.3.0",
     "vue": "^2.6.11"
   },
   "devDependencies": {

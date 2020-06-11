@@ -19,6 +19,14 @@ const state = {
             return id;
         }
     },
+
+    /**
+     * Deletes any cookie state by name
+     * @param {string} name - Name of the cookie variable
+    */
+    remove: (name) => {
+        cookies.remove(name);
+    },
     
     /**
      * Gets state using the generated state-uuid
