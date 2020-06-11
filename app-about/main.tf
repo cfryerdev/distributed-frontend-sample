@@ -34,5 +34,5 @@ resource "aws_route53_record" "dfe-about" {
   name    = "about"
   type    = "CNAME"
   ttl     = "5"
-  records = ["cfryerdev-dfe-app-about.s3-us-east-1.amazonaws.com"]
+  records = ["cfryerdev-dfe-app-about.s3-website-us-east-1.amazonaws.com"]
 }
