@@ -1,6 +1,6 @@
 {
-    "name": "cfryerdev-dfe-navigation-react",
-    "version": "1.0.0",
+    "name": "cfryerdev-dfe-react-navigation",
+    "version": "1.0.1",
     "description": "React Navigation Component for DFE Example",
     "main": "./lib/NavigationComponent.jsx",
     "license": "MIT",
