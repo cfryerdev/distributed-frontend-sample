@@ -5,7 +5,7 @@ module.exports = {
     entry: './src/Navigation.jsx',
     output: {
         path: path.resolve('lib'),
-        filename: 'NavigationComponent.js',
+        filename: 'Navigation.js',
         libraryTarget: 'commonjs2'
     },
     module: {

@@ -1,8 +1,8 @@
 {
     "name": "cfryerdev-dfe-react-footer",
-    "version": "1.0.1",
+    "version": "1.1.0",
     "description": "React Footer Component for DFE Example",
-    "main": "./lib/FooterComponent.jsx",
+    "main": "./lib/Footer.js",
     "license": "MIT",
     "scripts": {
         "build": "webpack"

@@ -1,3 +1,3 @@
 npm i
-npm build
+npm run build
 npm publish --access public

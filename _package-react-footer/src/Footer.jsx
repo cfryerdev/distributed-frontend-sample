@@ -1,4 +1,4 @@
 import React from 'react';
 
 export default ({ year, name }) => 
-    <div class="footer">Copyright {year} - {name}</div>
+    <div className="text-center pt-4">Copyright {year} - {name}</div>

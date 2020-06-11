@@ -5,7 +5,7 @@ module.exports = {
     entry: './src/Footer.jsx',
     output: {
         path: path.resolve('lib'),
-        filename: 'FooterComponent.js',
+        filename: 'Footer.js',
         libraryTarget: 'commonjs2'
     },
     module: {
