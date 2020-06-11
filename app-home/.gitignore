@@ -23,6 +23,11 @@ speed-measure-plugin*.json
 .settings/
 *.sublime-workspace
 
+# Terraform
+.terraform
+terraform.tfstate
+terraform.tfstate.backup
+
 # IDE - VSCode
 .vscode/*
 !.vscode/settings.json

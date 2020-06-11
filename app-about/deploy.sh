@@ -1,3 +1,4 @@
+npm i
 npm run build
 ./terraform.exe init
 ./terraform.exe apply
