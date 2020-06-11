@@ -1,6 +1,6 @@
 {
     "name": "cfryerdev-dfe-utility-cookiestate",
-    "version": "1.2.1",
+    "version": "1.2.2",
     "description": "Cookie based state management for DFE Example",
     "main": "./index.js",
     "license": "MIT",
