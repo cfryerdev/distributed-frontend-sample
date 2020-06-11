@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,400");
+
+/* You can add global styles to this file, and also import other style files */
+.container {
+  padding-top: 20px;
+}
+a.card {
+  color: #666;
+}
+
+a.card:hover {
+  text-decoration: none;
+  color: #666;
+}
