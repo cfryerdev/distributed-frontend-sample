@@ -16,6 +16,8 @@ export default {
 </script>
 
 <style>
+@import './styles/bootstrap.css';
+@import './styles/main.css';
 #app {
   margin-top: 60px;
 }
