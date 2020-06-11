@@ -49,7 +49,9 @@ const state = {
      * @param {object} value - The object to store in state
     */
     setState: (id, name, value) => {
-        cookies.set(id, JSON.stringify(value));
+        var obj = {};
+        obj[name] = value;
+        cookies.set(id, JSON.stringify(obj));
     },
 
     /**
