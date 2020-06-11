@@ -24,3 +24,15 @@ POLICY
     index_document = "index.html"
   }
 }
+
+data "aws_route53_zone" "dfe_zone" {
+  name = "cfryerdev-mfe.info."
+}
+
+resource "aws_route53_record" "dfe-login" {
+  zone_id = data.aws_route53_zone.dfe_zone.id
+  name    = "login"
+  type    = "CNAME"
+  ttl     = "5"
+  records = ["cfryerdev-dfe-app-login.s3-us-east-1.amazonaws.com"]
+}
