@@ -16,7 +16,7 @@
       >We'll never share your email with anyone else.</small>
     </div>
     <label v-if="this.input.loggedInUser !== ''" class="text-danger pb-3">
-      Currently Logged in as {{this.input.loggedInUser || ""}}
+      Currently logged in as {{this.input.loggedInUser || ""}}
     </label>
     <br>
     <button v-if="this.input.loggedInUser === ''" type="button" v-on:click="login()" class="btn btn-primary">
