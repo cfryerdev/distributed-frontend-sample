@@ -1,5 +1,12 @@
 // Info: This is just some helper cookie code I wrote to make my life easier.
 
+function getwildcardHost() {
+  var host = window.location.host
+  var subdomain = host.split('.')[0];
+  var value = host.replace(subdomain, '');
+  return value === "" ? window.location.host : value;
+}
+
 const cookies = {
     /**
      * clears the key variables inside a domain cookie
@@ -62,7 +69,7 @@ const cookies = {
     set: (name, value, expires) => {
       var date = new Date();
       date.setTime(date.getTime() + (expires ? expires : 30) * 60 * 1000);
-      document.cookie = `${name}=${value}; expires=${date.toUTCString()}; SameSite=None`;
+      document.cookie = `${name}=${value}; domain=${getwildcardHost()}; expires=${date.toUTCString()}; SameSite=None`;
     },
   
     /**
@@ -70,7 +77,7 @@ const cookies = {
      * @param {string} name - Name of the cookie variable
      */
     remove: name => {
-      document.cookie = name + "=; expires=Thu, 01 Jan 1970 00:00:01 GMT; SameSite=None";
+      document.cookie = `${name}=; expires=Thu, 01 Jan 1970 00:00:01 GMT; domain=${getwildcardHost()}; SameSite=None`;
     }
   };
   

@@ -47,6 +47,9 @@ export default {
               state.appendState(id, "user", { username: this.input.username } );
               this.input.loggedInUser = this.input.username;
               this.rerender();
+              setTimeout(() => {
+                window.location = "http://www.cfryerdev-mfe.info/" 
+              },3000);
           } else {
               alert("A username and password must be present");
           }
