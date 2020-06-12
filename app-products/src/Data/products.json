@@ -1,0 +1,77 @@
+{
+	"list": [
+		{ "id": "33b2294f-a66a-4ed7-888b-879e4bf493e0", "price": 1299.99, "name": "HP OMEN 15" },
+		{ "id": "b5d5a704-097c-4b0d-9a6a-5815b2cb5097", "price": 999.99, "name": "Dell Inspiron 17" },
+		{ "id": "a468b91e-f847-425b-ab29-987777683633", "price": 799.99, "name": "HP Pavilion x360 Convertible" },
+		{ "id": "1c2bca9f-f2ab-4045-a3c3-5f3c5d86224c", "price": 799.99, "name": "HP Pavilion 15" },
+		{ "id": "6fa58701-a8c0-43f2-9d3c-94ba272aa0ac", "price": 649.99, "name": "Lenovo Flex 5 (Intel)" },
+		{ "id": "c99b2416-e639-478b-9ac7-1122093443a5", "price": 599.99, "name": "Lenovo Flex 5 (Ryzen)" },
+		{ "id": "0e709778-7b39-442e-8d13-ef8f8d1d031a", "price": 549.99, "name": "Lenovo IdeaPad " },
+		{ "id": "b8108558-a95a-409b-81ac-a7471153f8a2", "price": 449.99, "name": "HP ProBook 650" }
+	],
+	"details": [
+	{
+		"name": "Lenovo Flex 5 (Ryzen)",
+		"image": "https://90a1c75758623581b3f8-5c119c3de181c9857fcb2784776b17ef.ssl.cf2.rackcdn.com/0621388_088377.jpg",
+		"price": 599.99,
+		"stock": 14,
+		"description": "Lenovo Flex 5 14\" 2-in-1 Laptop Computer - Grey; AMD Ryzen 5 4500U Processor 2.3GHz; 8GB DDR4-3200 Onboard RAM; 512GB Solid State Drive; AMD Radeon Graphics"
+	},
+
+	{
+		"name": "Lenovo IdeaPad 5",
+		"image": "https://90a1c75758623581b3f8-5c119c3de181c9857fcb2784776b17ef.ssl.cf2.rackcdn.com/0621349_088385.jpg",
+		"price": 549.99,
+		"stock": 7,
+		"description": "Lenovo IdeaPad 5 15.6\" Laptop Computer - Grey; Intel Core i5-1035G1 Processor 1.0GHz; 8GB DDR4-3200 Onboard RAM; 512GB Solid State Drive; Intel UHD Graphics"
+	},
+
+	{
+		"name": "HP Pavilion x360 Convertible",
+		"image": "https://90a1c75758623581b3f8-5c119c3de181c9857fcb2784776b17ef.ssl.cf2.rackcdn.com/0623200_106609.jpg",
+		"price": 799.99,
+		"stock": 3,
+		"description": "HP Pavilion x360 Convertible 14-dh2034nr 14\" 2-in-1 Laptop Computer - Silver Intel Core i7-1065G7 Processor 1.3GHz; 16GB DDR4-3200 RAM; 512GB Solid State Drive; Intel Iris Plus Graphics"
+	},
+
+	{
+		"name": "HP Pavilion 15",
+		"image": "https://90a1c75758623581b3f8-5c119c3de181c9857fcb2784776b17ef.ssl.cf2.rackcdn.com/0623191_106591.jpg",
+		"price": 799.99,
+		"stock": 102,
+		"description": "HP Pavilion 15-cs3072nr 15.6\" Laptop Computer - Silver; Intel Core i7-1065G7 Processor 1.3GHz; 16GB DDR4-2666 RAM; 512GB Solid State Drive; Intel Iris Plus Graphics"
+	},
+
+	{
+		"name": "HP OMEN 15",
+		"image": "https://90a1c75758623581b3f8-5c119c3de181c9857fcb2784776b17ef.ssl.cf2.rackcdn.com/0623203_106567.jpg",
+		"price": 1299.99,
+		"stock": 68,
+		"description": "HP OMEN 15-dh1059nr 15.6\" Gaming Laptop Computer - Black; Intel Core i7-10750H Processor 2.6GHz; NVIDIA GeForce RTX 2060 6GB GDDR6; 16GB DDR4-2933 RAM; 1TB Solid State Drive"
+	},
+
+	{
+		"name": "Lenovo Flex 5 (Intel)",
+		"image": "https://90a1c75758623581b3f8-5c119c3de181c9857fcb2784776b17ef.ssl.cf2.rackcdn.com/0621389_088351.jpg",
+		"price": 649.99,
+		"stock": 35,
+		"description": "Lenovo Flex 5 14\" 2-in-1 Laptop Computer - Grey; Intel Core i5-1035G1 Processor 1.0GHz; 8GB DDR4-3200 Onboard RAM; 512GB Solid State Drive; Intel UHD Graphics"
+	},
+
+	{
+		"name": "Dell Inspiron 17",
+		"image": "https://90a1c75758623581b3f8-5c119c3de181c9857fcb2784776b17ef.ssl.cf2.rackcdn.com/0620531_080093.jpg",
+		"price": 999.99,
+		"stock": 76,
+		"description": "Dell Inspiron 17 3793 17.3\" Laptop Computer - Black; Intel Core i7-1065G7 Processor 1.3GHz; 16GB DDR4-2666 RAM; 512GB Solid State Drive; Intel Iris Plus Graphics"
+	},
+
+	{
+		"name": "HP ProBook 650",
+		"image": "https://90a1c75758623581b3f8-5c119c3de181c9857fcb2784776b17ef.ssl.cf2.rackcdn.com/0624004_115238.jpg",
+		"price": 449.99,
+		"stock": 202,
+		"description": "HP ProBook 650 G1 15.6\" Laptop Computer Refurbished - Black; Intel Core i5-4300U Processor 1.9GHz; 16GB RAM; 256GB Solid State Drive; Intel HD Graphics 4400"
+	}
+]
+}
