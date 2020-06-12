@@ -26,4 +26,5 @@ This is a functional example of distributed micro-frontends hosted in AWS Cloud.
 3) Install Node / NPM
 4) Log into aws cli by running: `aws configure` -> [Documentation](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html)
 5) Clone this directory and navigate to it
-6) Navigate to each app directory and edit `main.tf` & `deploy.sh` for your domain requirements then execute `./deploy.sh`
+6) Navigate to each package directory and edit `deploy.sh` for your requirements then execute `./deploy.sh`
+7) Navigate to each app directory and edit `main.tf` & `deploy.sh` for your domain requirements then execute `./deploy.sh`

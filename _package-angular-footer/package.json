@@ -1,7 +1,7 @@
 {
     "name": "cfryerdev-dfe-angular-footer",
     "version": "1.0.0",
-    "description": "Angular Footer Component for DFE Example",
+    "description": "Angular Footer Component for MFE Example",
     "main": "./lib/FooterComponent.jsx",
     "license": "MIT",
     "scripts": {

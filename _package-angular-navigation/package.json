@@ -1,7 +1,7 @@
 {
     "name": "cfryerdev-dfe-angular-navigation",
     "version": "1.0.0",
-    "description": "Angular Navigation Component for DFE Example",
+    "description": "Angular Navigation Component for MFE Example",
     "main": "./lib/NavigationComponent.jsx",
     "license": "MIT",
     "scripts": {

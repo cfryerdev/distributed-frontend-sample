@@ -3,8 +3,13 @@
 function getwildcardHost() {
   var host = window.location.host
   var subdomain = host.split('.')[0];
-  var value = host.replace(subdomain, '');
-  return value === "" ? window.location.host : value;
+  return host.replace(subdomain, '');
+  
+}
+
+function domainString() {
+  var value = getwildcardHost();
+  return value === "" ? "" : `domain=${value};`;
 }
 
 const cookies = {
@@ -69,7 +74,7 @@ const cookies = {
     set: (name, value, expires) => {
       var date = new Date();
       date.setTime(date.getTime() + (expires ? expires : 30) * 60 * 1000);
-      document.cookie = `${name}=${value}; domain=${getwildcardHost()}; expires=${date.toUTCString()}; SameSite=None`;
+      document.cookie = `${name}=${value}; ${domainString()} expires=${date.toUTCString()}; SameSite=None`;
     },
   
     /**
@@ -77,7 +82,7 @@ const cookies = {
      * @param {string} name - Name of the cookie variable
      */
     remove: name => {
-      document.cookie = `${name}=; expires=Thu, 01 Jan 1970 00:00:01 GMT; domain=${getwildcardHost()}; SameSite=None`;
+      document.cookie = `${name}=; expires=Thu, 01 Jan 1970 00:00:01 GMT; ${domainString()} SameSite=None`;
     }
   };
   

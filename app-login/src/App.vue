@@ -1,6 +1,17 @@
 <template>
-  <div id="app" class="container">
-    <LoginForm/>
+  <div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <span class="navbar-brand" >MFE Example</span>
+      <div class="float-right text-right">
+        <a class="pr-4" href="http://www.cfryerdev-mfe.info/">Home</a>
+      </div>
+    </nav>
+    <div class="bg-secondary p-2">
+      Welcome
+    </div>
+    <div id="app" class="container">
+      <LoginForm/>
+    </div>
   </div>
 </template>
 
@@ -18,7 +29,4 @@ export default {
 <style>
 @import './styles/bootstrap.css';
 @import './styles/main.css';
-#app {
-  margin-top: 60px;
-}
 </style>

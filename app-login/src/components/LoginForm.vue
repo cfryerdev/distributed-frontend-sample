@@ -17,6 +17,7 @@
     </div>
     <label v-if="this.input.loggedInUser !== ''" class="text-danger pb-3">
       Currently logged in as {{this.input.loggedInUser || ""}}
+      <span v-if="this.input.isLoginTrigger"> ... Redirecting... </span>
     </label>
     <br>
     <button v-if="this.input.loggedInUser === ''" type="button" v-on:click="login()" class="btn btn-primary">
@@ -37,6 +38,7 @@ export default {
           input: {
               username: "",
               loggedInUser: "",
+              isLoginTrigger: false
           }
       }
   },
@@ -46,6 +48,7 @@ export default {
               var id = state.getId("DFE-EXAMPLE");
               state.appendState(id, "user", { username: this.input.username } );
               this.input.loggedInUser = this.input.username;
+              this.input.isLoginTrigger = true;
               this.rerender();
               setTimeout(() => {
                 window.location = "http://www.cfryerdev-mfe.info/" 
