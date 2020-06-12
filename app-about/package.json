@@ -4,8 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
-    "test": "ng test",
+    "build": "ng build --prod=true --sourceMap=false --buildOptimizer=true --extractCss=true --localize=false --optimization=true",
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
