@@ -1,6 +1,8 @@
 # Distributed Micro-Frontends Sample
 This is the mono-repo for cfryerdev's article: Distributed (Multi-Language) Microfrontends [DFE]
 
+Demo: [http://www.cfryerdev-mfe.info/](www.cfryerdev-mfe.info)
+
 ## What is this
 This is a functional example of distributed micro-frontends hosted in AWS Cloud. The application is broken up into 4 parts written in Angular, React, Vanill JS, and Vue. Please see article [TBD] for more information about this sample application.
 
