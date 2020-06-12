@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "cfryerdev-dfe-app" {
-  bucket = "cfryerdev-dfe-app-login"
+  bucket = "login.cfryerdev-mfe.info"
   acl    = "public-read"
   policy = <<POLICY
 {
@@ -14,7 +14,7 @@ resource "aws_s3_bucket" "cfryerdev-dfe-app" {
       "Effect": "Allow",
       "Principal": "*",
       "Action": ["s3:GetObject"],
-      "Resource": ["arn:aws:s3:::cfryerdev-dfe-app-login/*"]
+      "Resource": ["arn:aws:s3:::login.cfryerdev-mfe.info/*"]
     }
   ]
 }
