@@ -18,6 +18,9 @@ export default () => {
   });
   return (
     <Fragment>
+      <ol class="breadcrumb">
+          <li class="breadcrumb-item active">Products</li>
+      </ol>
       <h3>Products</h3>
       <div className="list-group">
         { records.length === 0 ? <div>Loading...</div> : null}

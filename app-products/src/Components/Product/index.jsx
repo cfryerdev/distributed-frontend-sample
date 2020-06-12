@@ -18,7 +18,7 @@ export default (props) => {
     <Fragment>
         <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="/">Products</a></li>
-            <li class="breadcrumb-item active">Library</li>
+            <li class="breadcrumb-item active">Item</li>
         </ol>
         <div className="row mb-4">
             <div className="col-lg-3 col-md-4 col-sm-12 col-xs-12">

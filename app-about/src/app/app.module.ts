@@ -1,7 +1,6 @@
 import { BrowserModule } from "@angular/platform-browser";
 import { NgModule } from "@angular/core";
 import { RouterModule } from "@angular/router";
-import { NgbModule } from "@ng-bootstrap/ng-bootstrap";
 import { AppRoutingModule } from "./app.routes";
 
 import { RootComponent } from "./root.component";
@@ -10,7 +9,7 @@ import { NotFoundComponent } from "./not-found/not-found.component";
 
 @NgModule({
   declarations: [RootComponent, HomeComponent, NotFoundComponent],
-  imports: [AppRoutingModule, RouterModule, NgbModule, BrowserModule],
+  imports: [AppRoutingModule, RouterModule, BrowserModule],
   providers: [],
   bootstrap: [RootComponent]
 })
