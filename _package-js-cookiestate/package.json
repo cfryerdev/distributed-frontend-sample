@@ -1,10 +1,10 @@
 {
     "name": "cfryerdev-dfe-utility-cookiestate",
-    "version": "1.3.3",
+    "version": "1.3.4",
     "description": "Cookie based state management for MFE Example",
     "main": "./index.js",
     "license": "MIT",
-    "url": "https://github.com/cfryerdev/microfrontend-sample",
+    "homepage": "https://github.com/cfryerdev/microfrontend-sample",
     "scripts": {},
     "peerDependencies": {},
     "devDependencies": {},

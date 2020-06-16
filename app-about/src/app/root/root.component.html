@@ -1,13 +1,11 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <span class="navbar-brand" >MFE Example</span>
-  <div class="float-right text-right" >
-    <a *ngFor="let link of links; let i = index" class="pr-4" href="{{link.url}}">{{link.name}}</a>
-  </div>
-</nav>
-<div class="bg-secondary p-2">
-  {{ usernameFormat }}
-</div>
+<dfe-navigation 
+  title="MFE Example" 
+  subtext={{usernameFormat}}
+  [links]="links"
+></dfe-navigation>
 
 <div class="container">
   <router-outlet></router-outlet>
 </div>
+
+<dfe-footer year="2020" name="cfryerdev" ></dfe-footer>

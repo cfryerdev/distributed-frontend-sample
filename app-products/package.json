@@ -5,7 +5,7 @@
   "keywords": [],
   "main": "src/index.jsx",
   "dependencies": {
-    "cfryerdev-dfe-react-footer": "^1.1.0",
+    "cfryerdev-dfe-react-footer": "^1.1.1",
     "cfryerdev-dfe-react-navigation": "^1.1.0",
     "cfryerdev-dfe-utility-cookiestate": "^1.3.2",
     "react": "16.13.1",

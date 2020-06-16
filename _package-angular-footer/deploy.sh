@@ -1,3 +1,5 @@
 npm i
-npm build
+ng build footer --prod
+cd dist
+cd footer
 npm publish --access public

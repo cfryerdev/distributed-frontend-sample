@@ -4,7 +4,8 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --prod=true --sourceMap=false --buildOptimizer=true --extractCss=true --localize=false --optimization=true",
+    "build": "ng build",
+    "build-prod": "ng build --configuration production",
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
@@ -16,6 +17,8 @@
     "@angular/platform-browser": "~9.1.9",
     "@angular/platform-browser-dynamic": "~9.1.9",
     "@angular/router": "~9.1.9",
+    "cfryerdev-dfe-angular-footer": "^1.1.0",
+    "cfryerdev-dfe-angular-navigation": "^1.1.0",
     "cfryerdev-dfe-utility-cookiestate": "^1.3.3",
     "rxjs": "~6.5.4",
     "tslib": "^1.10.0",

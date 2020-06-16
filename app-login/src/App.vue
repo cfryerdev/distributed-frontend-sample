@@ -12,6 +12,7 @@
     <div id="app" class="container">
       <LoginForm/>
     </div>
+    <div class="text-center p-4">Copyright 2020 - cfryerdev</div>`
   </div>
 </template>
 

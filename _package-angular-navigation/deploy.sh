@@ -1,3 +1,5 @@
 npm i
-npm build
+ng build navigation --prod
+cd dist
+cd navigation
 npm publish --access public
